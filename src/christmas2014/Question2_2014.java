@@ -13,12 +13,24 @@ public class Question2_2014 {
         number = input.nextInt();
 
         if(number <= 0) {
-            System.out.print("Error: the number is not positive .... exiting program now");
+            System.out.print("\nError: the number is not positive .... exiting program now");
         } else {
             if(number % 2 == 0)
-                System.out.print("The number entered is even");
+                System.out.print("\nThe number entered is even");
             else
-                System.out.print("The number entered is odd");
+                System.out.print("\nThe number entered is odd");
+
+            if(number % 10 == 0)
+                System.out.print("\nThe number ends in a zero");
+            else
+                System.out.print("\nThe number does not end in a zero");
+
+            if(number >= 1 && number <= 255)
+                System.out.print("\nThe corresponding ASCII code this number is " + (char)number);
+            else
+                System.out.print("\nThere is no corresponding ASCII code for this number");
         }
+
+        input.close();
     }
 }
