@@ -57,6 +57,8 @@ public class Exercise6 {
 
             }
         }while(choice != 4);
+
+        input.close();
     }
 }
 

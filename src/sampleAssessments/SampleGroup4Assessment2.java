@@ -50,5 +50,7 @@ public class SampleGroup4Assessment2 {
                 "\nPercentage of 3 digit number: " + String.format("%.0f", (percentage3Digits / (float)numNumbers)
                 * 100f) + "%" +
                 "\nList of multiples of 4: " + multiplesOfFour);
+
+        input.close();
     }
 }

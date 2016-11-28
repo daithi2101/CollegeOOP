@@ -43,5 +43,7 @@ public class Exercise3 {
                 "\nPercentage >= 80kg: " + String.format("%.2f", (percentageOver80 / 5 * 100)) + "%" +
                 "\nHeaviest weight: " + heaviest + "kg" +
                 "\nLightest weight: " + lightest + "kg");
+
+        input.close();
     }
 }

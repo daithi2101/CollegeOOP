@@ -28,5 +28,7 @@ public class Exercise2 {
         }
 
         System.out.println("\n\n*******Lexical Analysis of Your Sentence*******" + "\nLowercase letters: " + lowerLetters + "\nUppercase letters: " + upperLetters + "\nDigits: " + digits + "\nPunctuation symbols: " + (punctuation +1));
+
+        input.close();
     }
 }

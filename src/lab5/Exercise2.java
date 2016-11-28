@@ -24,6 +24,7 @@ public class Exercise2 {
         } else {
             System.out.print("\nYou entered neither a letter nor a digit");
         }
+
         input.close();
     }
 }

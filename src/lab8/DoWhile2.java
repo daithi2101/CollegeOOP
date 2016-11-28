@@ -41,5 +41,7 @@ public class DoWhile2 {
                     System.out.println("Thanks for using the system .... goodbye");
             }
         }while(choice != 3);
+
+        input.close();
     }
 }

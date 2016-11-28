@@ -41,5 +41,7 @@ public class CounterControlledWhile2 {
                 "\nLetters: " + letters + "\nDigits: " + digits +
                 "\nWords: " + (words + 1) + "\nSentences: " + sentences +
                 "\nPunctuation symbols: " + punctuation);
+
+        input.close();
     }
 }

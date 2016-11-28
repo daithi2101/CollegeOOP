@@ -70,6 +70,7 @@ public class Exercise3 {
             String formatString4 = String.format("%s%.2f", "\n\nThe average cost per call made is EUR", AVERAGECOSTEIR);
             System.out.print(formatString4);
         }
+
         input.close();
     }
 }

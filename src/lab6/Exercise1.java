@@ -42,5 +42,7 @@ public class Exercise1 {
 
         }else
             System.out.println("\nNo conversions were performed....Goodbye");
+
+        input.close();
     }
 }

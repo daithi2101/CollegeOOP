@@ -23,5 +23,7 @@ public class Exercise4 {
         }
         if(i == text.length())
             System.out.println("\nYou entered a binary number");
+
+        input.close();
     }
 }

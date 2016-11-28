@@ -6,7 +6,7 @@ import java.util.Scanner;
  */
 public class SampleGroup3Assesment2 {
     public static void main(String[] args) {
-        int index = 0, totalSpaces = 0, totalWords = 0;
+        int index = 0, totalSpaces = 0, totalWords = totalSpaces + index;
         String text, smallestText = "";
 
         Scanner input = new Scanner(System.in);
@@ -52,10 +52,10 @@ public class SampleGroup3Assesment2 {
             index++;
         }while(index < 3);
 
-        totalWords = totalSpaces + index;
-
         System.out.println("\n\n******Overall Results******" +
                 "\n\nShortest piece of text: " + smallestText +
                 "\nAverage number of words: " + (totalWords / index));
+
+        input.close();
     }
 }

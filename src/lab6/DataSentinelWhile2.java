@@ -24,5 +24,7 @@ public class DataSentinelWhile2 {
         }
 
         System.out.println("\nTotal products entered: " + numProducts + "\nTotal Price:" + " EUR" + String.format("%.2f", totalPrice));
+
+        input.close();
     }
 }

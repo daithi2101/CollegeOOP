@@ -33,5 +33,7 @@ public class Exercise2 {
         }
         if(count == 3)
             System.out.println("\nInvalid username/password combination. IP address noted. Banned for 24 hours");
+
+        input.close();
     }
 }

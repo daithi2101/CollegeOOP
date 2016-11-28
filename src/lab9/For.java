@@ -26,5 +26,7 @@ public class For {
             }
         }
         System.out.println("\n\nNumber of vowels: " + vowels + "\nNumber of consonants: " + consonants);
+
+        input.close();
     }
 }

@@ -37,5 +37,7 @@ public class DataSentinelFor {
             System.out.println("\nThe longest name entered is " + longestName +
                     "\nThe shortest name entered is " + shortestName +
                     "\nThe percentage of name >= 17 in length is " + String.format("%.2f", ((float)atLeast17 / i) * 100));
+
+        input.close();
     }
 }

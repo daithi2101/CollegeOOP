@@ -36,5 +36,7 @@ public class SampleCA {
                         + " kg");
             }
         }
+
+        input.close();
     }
 }

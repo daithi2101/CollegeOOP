@@ -26,5 +26,7 @@ public class DataSentinelWhile {
         if (numProcessed != 0) {
             System.out.println("\n\nThe number of students processed is " + numProcessed + "\nThe average height of the students is " + String.format("%.2f", totalHeight / numProcessed) + " m");
         }
+
+        input.close();
     }
 }

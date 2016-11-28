@@ -17,5 +17,7 @@ public class Exercise1 {
         } else {
             System.out.print("You are over 20 years old");
         }
+
+        input.close();
     }
 }

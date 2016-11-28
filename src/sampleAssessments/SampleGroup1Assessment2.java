@@ -48,5 +48,6 @@ public class SampleGroup1Assessment2 {
                     "\nThe percentage of height values exceeding the global average height is " +
                     String.format("%.2f", (((float)aboveGlobalAverage / (float)numValidHeights) * 100f)) + "%");
 
+        input.close();
     }
 }

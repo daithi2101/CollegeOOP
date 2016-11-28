@@ -20,5 +20,7 @@ public class TaskControlledWhile2 {
             System.out.println("Balance at end of year " + year + " is EUR" + String.format("%.2f", balance));
             year++;
         }
+
+        input.close();
     }
 }

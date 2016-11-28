@@ -24,5 +24,7 @@ public class DoWhile {
 
         System.out.println("\n\nHighest mark was: " + highMark + "\nAverage mark was " +
                 String.format("%.0f", (float)totalMark/counter));
+
+        input.close();
     }
 }

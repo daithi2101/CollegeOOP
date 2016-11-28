@@ -22,5 +22,7 @@ public class Exercise4 {
             year++;
         }
         while(balance <= 2000);
+
+        input.close();
     }
 }

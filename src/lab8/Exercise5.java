@@ -47,5 +47,7 @@ public class Exercise5 {
 
             }
         }while(choice != 4);
+
+        input.close();
     }
 }

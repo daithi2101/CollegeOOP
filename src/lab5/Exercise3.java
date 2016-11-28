@@ -41,6 +41,7 @@ public class Exercise3 {
             default:
                 System.out.print("\nSorry - you must have entered an invalid choice - must be between 1 and 3");
         }
+
         input.close();
     }
 }

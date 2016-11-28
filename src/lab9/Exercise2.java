@@ -16,5 +16,7 @@ public class Exercise2 {
             total += i;
         }
         System.out.println("The sum of the first " + upperLimit + " positive integers is " + total);
+
+        input.close();
     }
 }

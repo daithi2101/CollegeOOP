@@ -23,5 +23,7 @@ public class For2 {
                 System.out.println("\n\n\n\n\n\n" + headerFormatString);
             }
         }
+
+        input.close();
     }
 }

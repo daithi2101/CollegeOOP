@@ -24,5 +24,7 @@ public class Exercise4 {
         }
         if(count == text.length())
             System.out.println("\n You entered a positive whole number");
+
+        input.close();
     }
 }

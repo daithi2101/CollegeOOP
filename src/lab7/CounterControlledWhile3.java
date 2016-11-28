@@ -32,5 +32,7 @@ public class CounterControlledWhile3 {
                 "\n=================================" +
                 "\n\nLargest number is " + largest + "" +
                 "\nSmallest number is " + smallest);
+
+        input.close();
     }
 }

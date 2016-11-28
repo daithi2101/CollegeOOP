@@ -37,5 +37,6 @@ public class Exercise4 {
             System.out.print(formatString);
         }
 
+        input.close();
     }
 }

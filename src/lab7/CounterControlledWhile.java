@@ -33,5 +33,7 @@ public class CounterControlledWhile {
                     "\n\nList of names containing > 20 characters: \n"+ namesOver20 +
                     "\n\nList of names begging with an 'A': \n" + nameStartingWithA +
                     "\nAverage length of the names: " + String.format("%.0f", totalLength/10f));
+
+            input.close();
         }
 }

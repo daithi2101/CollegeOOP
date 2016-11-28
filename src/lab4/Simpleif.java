@@ -1,10 +1,8 @@
 package lab4;
-
+import java.util.Scanner;
 /*
  * Created by David O Connor on 03/10/2016.
  */
-import java.util.Scanner;
-
 public class Simpleif {
     public static void main(String args[]){
         String answerAsString;
@@ -23,5 +21,7 @@ public class Simpleif {
         if(answer == 'n') {
             System.out.println("\nYou said you dislike Java");
         }
+
+        input.close();
     }
 }

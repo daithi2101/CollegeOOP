@@ -59,5 +59,7 @@ public class SampleGroup2Assessment2 {
                     "\n*****************************" +
                     "\n\nNumber of invalid values entered: " + invalidEntries +
                     "\nList of valid ISBN: " + isbnList);
+
+        input.close();
     }
 }

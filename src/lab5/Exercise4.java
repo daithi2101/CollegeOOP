@@ -38,6 +38,7 @@ public class Exercise4 {
             default:
                 System.out.print("\nInvalid month");
         }
+
         input.close();
     }
 }

@@ -30,5 +30,7 @@ public class Exercise1 {
                 "\n================================" +
                 "\n\nAverage weight: "+ String.format("%.2f", averageWeight) + "kg" +
                 "\nPercentage >= 80kg: " + String.format("%.2f", (percentageOver80 / 5 * 100)) + "%");
+
+        input.close();
     }
 }

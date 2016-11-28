@@ -22,5 +22,7 @@ public class Exercise3 {
         for(int i = 0; i <= 12; i++) {
             System.out.println(numForTimesTable + " times " + i + " is " + (numForTimesTable * i));
         }
+
+        input.close();
     }
 }
