@@ -29,5 +29,7 @@ public class Question3b2014 {
         }
         if(count == word.length())
             System.out.println("\nThe character '" + ch + "' does not appear in \"" + word + "\"");
+
+        input.close();
     }
 }

@@ -30,5 +30,7 @@ public class Question3a2014 {
         System.out.println("\nNumber of teenagers: " + numOfTeenagers + "\nLargest age: " + largestAge +
                 " years\nPercent above average life expectancy: " + String.format("%.0f", (((float)numAboveAverage /
                 (float)count) * 100)) + "%");
+
+        input.close();
     }
 }
