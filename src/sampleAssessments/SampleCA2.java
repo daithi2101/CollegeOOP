@@ -1,7 +1,5 @@
 package sampleAssessments;
 import java.util.Scanner;
-import java.util.StringJoiner;
-
 /*
  * Created by David O Connor on 30/11/2016.
  */
