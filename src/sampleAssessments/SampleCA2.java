@@ -34,8 +34,8 @@ public class SampleCA2 {
                     else
                         System.out.println("\nThe 3rd digit in the number is " + number.charAt(2));
 
-                    if(number.charAt((i - 1)) == '2' || number.charAt((i -1)) == '4' || number.charAt((i -1)) == '6' ||
-                            number.charAt((i -1)) == '8' || number.charAt((i -1)) == '0')
+                    if(number.charAt((i - 1)) == '2' || number.charAt((i - 1)) == '4' || number.charAt((i - 1)) == '6' ||
+                            number.charAt((i - 1)) == '8' || number.charAt((i - 1)) == '0')
                         System.out.println("The number entered is even");
                     else
                         System.out.println("The number entered is odd");
