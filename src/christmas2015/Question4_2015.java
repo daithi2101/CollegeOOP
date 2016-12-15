@@ -1,6 +1,5 @@
 package christmas2015;
 import java.util.Scanner;
-
 /*
  * Created by David on 13/10/2016.
  */
